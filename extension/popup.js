@@ -3,11 +3,19 @@ const statusElement = document.getElementById("status");
 const messageElement = document.getElementById("message");
 
 function normalizeBrand(name) {
+
   return name
+
     .toLowerCase()
+
+    .replace(/[’']/g, "")
+
     .replace(/[^\w\s]/g, "")
+
     .replace(/\s+/g, " ")
+
     .trim();
+
 }
 
 async function loadBrands() {
@@ -70,6 +78,7 @@ async function getCurrentTabBrand() {
 async function init() {
   try {
     const brand = await getCurrentTabBrand();
+    console.log("Detected brand:", brand);
 
     if (!brand) {
       brandElement.textContent = "Not detected";

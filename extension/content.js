@@ -22,6 +22,19 @@ function detectBrand() {
     }
   }
 
+  const amazonStoreLink = Array.from(document.querySelectorAll("a")).find((link) => {
+    const text = link.textContent?.trim() || "";
+    return /^Visit the .+ Store$/i.test(text);
+  });
+
+  if (amazonStoreLink) {
+    const match = amazonStoreLink.textContent.trim().match(/^Visit the (.+) Store$/i);
+
+    if (match?.[1]?.trim()) {
+      return match[1].trim();
+    }
+  }
+
   const metadataSelectors = [
     'meta[name="brand"]',
     'meta[property="product:brand"]'

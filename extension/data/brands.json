@@ -4,13 +4,37 @@
     "The Ordinary",
     "Pacifica",
     "Rare Beauty",
-    "Tarte"
+    "Tarte",
+    "Fenty Beauty",
+    "Too Faced",
+    "Urban Decay",
+    "Glossier",
+    "Milk Makeup",
+    "Charlotte Tilbury",
+    "Hourglass",
+    "Burt's Bees",
+    "Drunk Elephant",
+    "Herbivore",
+    "Kosas"
   ],
   "notCrueltyFree": [
     "L'Oreal",
+    "L'Oreal Paris",
     "Maybelline",
     "MAC",
     "Clinique",
-    "Estee Lauder"
+    "Estee Lauder",
+    "Dove",
+    "Nivea",
+    "Neutrogena",
+    "Olay",
+    "Revlon",
+    "CoverGirl",
+    "Lancome",
+    "Shiseido",
+    "Pantene",
+    "Head & Shoulders",
+    "Garnier",
+    "Tresemme"
   ]
 }
