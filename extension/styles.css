@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f4ee;
+  color: #24362f;
+}
+
+.popup {
+  width: 320px;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0 0 14px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #ddd4c3;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.label {
+  margin: 12px 0 4px;
+  font-size: 12px;
+  color: #66766e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.brand {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.status {
+  display: inline-block;
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.cruelty-free {
+  background: #e5f6e8;
+  color: #1f7a3a;
+}
+
+.not-cruelty-free {
+  background: #fde8e8;
+  color: #a32626;
+}
+
+.unknown {
+  background: #fff1c7;
+  color: #7a5a00;
+}
+
+.message {
+  margin: 14px 0 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
